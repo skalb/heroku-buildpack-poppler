@@ -6,7 +6,7 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 
 # config
-S3_BUCKET_NAME="baucloud-heroku-buildpack"
+S3_BUCKET_NAME="fieldwire-heroku"
 VENDOR_URL="https://s3.amazonaws.com/${S3_BUCKET_NAME}"
 
 # Fontconfig
